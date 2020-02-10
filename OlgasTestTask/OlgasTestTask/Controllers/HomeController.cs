@@ -29,7 +29,7 @@ namespace OlgasTestTask.Controllers
             }
             else if (id.Contains("TraverseMatrix"))
             {
-                localArray = Core.Core.TraverseMatrix(localArray);
+                localArray = Core.Core.RotateMatrixClockwise(localArray);
                 
             }
             else if (id.Contains("ExportMatrix"))

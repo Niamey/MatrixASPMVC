@@ -10,23 +10,25 @@ namespace Core
     public static class Core
 
     {
-      
-        public static int[,] TraverseMatrix(int[,] array)
+
+        public static int[,] RotateMatrixClockwise(int[,] oldMatrix)
         {
-            int m = 3;
-            
-            int[,] array1 = new int[m, m];
-
-            for (int i = 0; i < array.GetLength(0); i++, Console.WriteLine())
+            int[,] newMatrix = new int[oldMatrix.GetLength(1), oldMatrix.GetLength(0)];
+            int oldColumn=0, oldRow;
+            for (int newRow = 0; newRow < newMatrix.GetLength(0); newRow++)
             {
-                for (int j = 0; j < array.GetLength(1); j++)
+                oldRow = oldMatrix.GetLength(0)-1; 
+                for (int newColumn = 0; newColumn < newMatrix.GetLength(1); newColumn++)
                 {
-                    array1[j, i] = array[i,j];
+                    newMatrix[newRow, newColumn] = oldMatrix[oldRow, oldColumn];
+                    oldRow--;
                 }
+                oldColumn ++;
             }
-
-            return array1;
+            return newMatrix;
         }
+
+
         public static List<string> ReadCSVFile(string fullPath)
         {
              List<string> read = new List<string>();
