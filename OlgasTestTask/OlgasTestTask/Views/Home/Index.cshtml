@@ -1,0 +1,50 @@
+﻿@model OlgasTestTask.Models.Grid
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="jumbotron">
+        <h1>Matrix</h1>
+        <table width="100%">
+            <tr>
+                <h6> Please, select action: </h6>
+                <p></p>
+                <td><a href=@Url.Content("~/Home/Index/GenerateRandomMatrix")' class="btn btn-primary">Generate Random Matrix</a></td>
+                <td><a href=@Url.Content("~/Home/Index/TraverseMatrix")' class="btn btn-primary">Traverse Matrix</a></td>
+                <td><a href=@Url.Content("~/Home/Index/ExportMatrix")' class="btn btn-primary">Export Matrix</a></td>
+                <p></p>
+
+
+                <td><a href='@Url.Content("~/Home/Index/UploadFromCSV")' class="btn btn-primary @ViewBag.UploadFromCSV">Upload From CSV</a></td>
+                
+            </tr>
+        </table>
+
+        @{
+            if (Model != null)
+            {
+                <table id="myTable" class="table" cellspacing="0">
+
+                    <tbody>
+                        @for (var i = 0; i < Model.Array.GetLength(0); i++)
+
+                        {
+                            <tr>
+                                @for (var j = 0; j < Model.Array.GetLength(1); j++)
+                                {
+                                    <td>
+                                        @Model.Array[i, j]
+
+                                    </td>
+                                }
+                            </tr>
+                        }
+
+
+                    </tbody>
+                </table>
+                }
+            }
+            </div>
+

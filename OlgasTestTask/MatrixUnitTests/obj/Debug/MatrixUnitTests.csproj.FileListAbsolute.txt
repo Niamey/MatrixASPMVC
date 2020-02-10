@@ -1,0 +1,15 @@
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\bin\Debug\MatrixUnitTests.dll
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\bin\Debug\MatrixUnitTests.pdb
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\obj\Debug\MatrixUnitTests.csprojAssemblyReference.cache
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\obj\Debug\MatrixUnitTests.csproj.CopyComplete
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\obj\Debug\MatrixUnitTests.dll
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\obj\Debug\MatrixUnitTests.pdb
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\bin\Debug\Core.dll
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\MatrixUnitTests\bin\Debug\Core.pdb

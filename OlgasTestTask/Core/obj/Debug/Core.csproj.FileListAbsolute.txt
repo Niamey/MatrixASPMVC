@@ -1,0 +1,5 @@
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\Core\bin\Debug\Core.dll
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\Core\bin\Debug\Core.pdb
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\Core\obj\Debug\Core.dll
+C:\Users\kornievao.AREON\source\repos\OlgasTestTask\Core\obj\Debug\Core.pdb
